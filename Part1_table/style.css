@@ -1,0 +1,41 @@
+table {
+  /*width: 100%;*/
+  border: 6px solid #000;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid lightgrey;
+  width: 60px;
+  height: 60px;
+}
+
+.green {
+  background: green;
+  border-color: green;
+}
+
+tr:nth-child(n + 5):nth-child(-n + 8) td:first-child {
+  background-color: darkblue;
+  border-color: darkblue;
+}
+tr:nth-child(9) :nth-child(-n + 3),
+tr:nth-child(10) :nth-child(2) {
+  background-color: rgb(110, 61, 61);
+  border-color: rgb(110, 61, 61);
+}
+
+[colspan="2"][rowspan="2"] {
+  background-color: lightblue;
+  border-color: lightblue;
+}
+
+[rowspan="3"] {
+  background-color: red;
+  border-color: red;
+}
+tr:nth-child(10) :nth-child(3),
+tr:nth-child(11) :nth-child(1) {
+  background-color: orange;
+  border-color: orange;
+}
