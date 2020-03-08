@@ -1,21 +1,25 @@
 table {
-  width: 450px;
-  height: 450px;
+  /* width: 450px;
+  height: 450px;*/
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
 }
 
 td {
+  width: 150px;
+  height: 150px;
   text-align: center;
+  font-size: 30px;
+  word-break: break-all;
 }
 
 tr:nth-child(1) td:nth-child(1) {
-  background-color: khaki;
+  background-color: #daa520;
   border-right: 3px solid black;
   border-bottom: 3px solid black;
   width: 95px;
-  height: 65px;
+  height: 70px;
   font-size: x-large;
 }
 
@@ -32,14 +36,14 @@ tr:nth-child(1) td:nth-child(2) {
   background-color: red;
   border-right: 3px solid black;
   border-bottom: 3px solid black;
-  height: 200px;
-  width: 65px;
+  height: 250px;
+
   font-size: x-large;
   color: white;
 }
 
 .listOf {
-  background-color: yellow;
+  background-color: #daa520;
   border-right: 3px solid black;
   border-bottom: 3px solid black;
   font-size: x-large;
@@ -51,12 +55,12 @@ tr:nth-child(1) td:nth-child(2) {
   text-decoration: white;
   color: white;
   font-size: x-large;
-  width: 85px;
+  width: 90px;
 }
 
 tr:nth-child(3) td:nth-child(1) {
-  background-color: yellow;
+  background-color: #daa520;
   border-right: 3px solid black;
   font-size: x-large;
-  height: 85px;
+  height: 70px;
 }
